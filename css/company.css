@@ -1,0 +1,299 @@
+.mL-20 { margin-left: 20px;}
+.mL-10 { margin-left: 10px;}
+.mT-5  { margin-top: 5px;}
+.mT-10 { margin-top: 10px;}
+.mT-20{ margin-top: 20px;}
+.mT-50{ margin-top: 50px;}
+.pT-20{ padding-top: 20px;}
+.pT-50{ padding-top: 50px;}
+.pB-50 {padding-bottom: 50px}
+.bg-white{ background-color: #fff;}
+.bg-black     { background-color: #1f1a17;}
+.bg-yellow {background-color: #f3b61f;}
+.bg-last {background-color: #001018;}
+.light-yellow{color: #f3b61f;}
+.yellow  { color: #c3901d;}
+.white {color: #ffffff;}
+.light{color: #757575;}
+.bold{
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SFUHelveticaBlack';
+    src: url('./fonts/SFUHelveticaBlack.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUHelveticaLight';
+    src: url('./fonts/SFUHelveticaLight.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUHelveticaBold';
+    src: url('./fonts/SFUHelveticaBold.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UVFPistilli';
+    src: url('./fonts/UVFPistilli-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-size: 13px;
+    font-family: SFUHelveticaLight, sans-serif;
+}
+.header{ 
+    border-top: 2px solid #f3b61f;
+    height: 40px;
+}
+
+.phone-icon{ transform: rotate(90deg);}
+.img-line{
+    border-left: 1px solid #6A6866;
+    margin-left: 20px;
+}
+.list-icon i{
+     margin-left: 10px;
+     color: #fff;
+}
+
+.list-menu .menu-content{
+    flex-direction: row;
+    line-height: 50px;
+}
+.list-menu .menu-content li{
+    width: 20%;
+}
+.list-menu .menu-content li a{
+    color: #424242;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+.list-menu .menu-content li a:hover, .list-menu .menu-content li a:active, .list-menu .menu-content li a:focus{
+    color: #fff;
+    background-color: #f3b61f;
+    border-radius: 25px;
+    text-decoration: none;
+    
+}
+.list-menu .menu-content li a i{
+    position: relative;
+    top: 0px;
+}
+.caption-slide{
+    text-align: left;
+    top: 15%;
+}
+.image-banner{
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    width: auto;
+}
+.intro-content{
+    font-family: SFUHelveticaBold, sans-serif;
+    font-size: 1.65em;
+    background-color: #f3b61f;
+    color: #000;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid #fff;
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.description{
+    margin-top: 20px;
+    width: 60%;
+    color: #fff;
+    font-size: 1.1em;
+}
+.btn-detail{
+    background-color: #f3b61f;
+    border: none;
+    border-radius: 0px;
+    color: #000;
+    margin-top: 20px;
+    padding: 5px 15px;
+}
+.title-group{
+    font-family: UVFPistilli, sans-serif;
+    font-size: 4em;
+    color: #fff;
+}
+.action-group{
+    text-align: left;
+    margin-left: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.menu-about{
+    position: relative;
+    height: 100%;
+}
+.content-about{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+}
+.content-about-right{
+    position: absolute;
+    top: 10%;
+    font-size: 1.15em;
+    left: 10%;
+    width: 70%;
+    line-height: 2em;
+}
+.angle-right{
+    position: absolute;
+    z-index: 1000;
+    right: 0px;
+    top: 5%;
+}
+.active{
+    color: #f3b61f; 
+}
+.group{
+    margin-top: 50px;
+}
+.group i{
+    border-radius: 50%;
+    border: 1px solid #f3b61f;
+    padding: 10px 5px;
+}
+.group .content-left{
+    float: left;
+    font-size: 2.5em;
+    letter-spacing: -1px;
+}
+.group .line-icon{
+    line-height: 3em;
+    text-align: right;
+    border-bottom: 1px solid #f3b61f;
+    display: inline-block;
+    margin-left: 20px;
+    width: 40%;
+    text-align: center;
+
+}
+.session-service{
+    margin-top: 50px;
+}
+.common-title{
+    border-left: 3px solid #f3b61f;
+    height: 5em;
+}
+.sm-title{
+    border-left: 1px solid #febc1f;
+    color: #757575;
+    font-size: 1.25em;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.lg-title{
+    font-size: 2.75em;
+    font-family: SFUHelveticaBold, sans-serif;
+    margin-left: 10px;
+
+}
+.card{
+    border: none;
+    margin-top: 50px;
+}
+.card img{
+    width: 100%;
+}
+.card .detail .name{
+    font-family: SFUHelveticaBold, sans-serif;
+    margin: 10px auto;
+}
+.card .detail .note{
+    font-family: SFUHelveticaLight, sans-serif;
+    
+}
+.btn-more{
+    width: 25%;
+    font-size: 0.9em;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #f3b61f;
+}
+.special-product{
+    position: relative;
+}
+.special-product .content-session{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    background-color: unset;
+}
+
+.scroll span{
+    border: 1px solid #f3b61f;
+    padding: 0px 13px 6px 10px;
+    color: #f3b61f;
+    margin: 5px;
+    font-size: 1.5em;
+}
+.product-detail img{
+    width: 100%;
+}
+.product-detail .content{
+    text-align: left;
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f3b61f;
+}
+.border-white{
+    border-left: 1px solid #fff !important;
+}
+
+.social-footer i{
+    border-radius: 50%;
+    border: 1px solid #757575;
+    width: 35px;
+    height: 35px;
+    color: #757575;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footer .title{
+    border-bottom: 1px solid #5B6367;
+    padding-bottom: 10px;
+}
+.border-yellow-sm{
+    border-bottom: 3px solid #f3b61f;
+    padding-bottom: 10px;
+}
+.date-sm{
+    font-size: 0.8em;
+}
+.link-quick input[type=text] {
+    border: none;
+    border-bottom: 2px dotted #757575;
+    background-color: transparent;
+    margin-top: 15px;
+}
+input[type=text]::placeholder{
+    font-size: 0.8em;
+}
+.contact input[type=text], .contact textarea, .contact .btn-sumit{
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 0px;
+    border: 1px solid #757575;
+    color: #757575;
+}   
